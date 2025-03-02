@@ -1,0 +1,16 @@
+{
+    "name": "Quarter Piglin",
+    "description": "Only roughly a quarter of this creature's genetics are Piglin. Yet within this descendant of a certain traveller, the Nether's blood still boils strong and steady like molten lava. They manage to avoid the more radical weaknesses the Piglins suffer from but also do not have access to all of their strength in certain fields. They also do not zombify in the Overworld making them a variant of the Piglin that best suited for constant exposure in both worlds.",
+    "powers": [
+        "origins:nether_spawn",
+        "piglin_origins:family_recipe",
+        "piglin_origins:crossbow_apprentice",
+        "piglin_origins:mixed_heratige",
+        "piglin_origins:carnivorous_cravings",
+        "piglin_origins:travel_sickness"
+    ],
+    "icon": {
+        "item": "minecraft:golden_hoe"
+    },
+    "impact": 2
+}

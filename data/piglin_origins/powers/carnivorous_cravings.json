@@ -1,0 +1,25 @@
+{
+    "name": "Carnivorous Cravings",
+    "description": "Your diet remains unchanged but vegetables don't give as much nutrients as meat does to you.",
+    "badges": [],
+    "type": "origins:modify_food",
+    "item_condition": {
+        "inverted": true,
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:meat"
+            },
+            {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "piglin_origins:golden_food"
+                }
+            }
+        ]
+    },
+    "food_modifier": {
+        "operation": "add_base_early",
+        "value": -3
+    }
+}

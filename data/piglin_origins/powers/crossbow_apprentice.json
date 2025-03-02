@@ -1,0 +1,22 @@
+{
+    "name": "Crossbow Apprentice",
+    "description": "You deal 25% more damage with crossbows.",
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:crossbow"
+            }
+        }
+    },
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "multiply_base",
+        "value": 0.25
+    },
+    "tick_rate": 20,
+    "update_health": true
+}

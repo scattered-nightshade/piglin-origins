@@ -1,6 +1,7 @@
 {
     "origins": [
-        "piglin_origins:piglin"
+        "piglin_origins:piglin",
+        "piglin_origins:half-piglin"
     ],
     "enabled": true
 }

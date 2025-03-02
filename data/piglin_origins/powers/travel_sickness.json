@@ -1,0 +1,10 @@
+{
+    "name": "Travel Sickness",
+    "description": "When outside of the Nether, you start to shiver.",
+    "condition": {
+        "inverted": true,
+        "type": "origins:dimension",
+        "dimension": "minecraft:the_nether"
+    },
+    "type": "origins:shaking"
+}

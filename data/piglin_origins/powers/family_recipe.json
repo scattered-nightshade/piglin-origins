@@ -1,0 +1,328 @@
+{
+    "name": "Family Recipe",
+    "description": "All golden weapons and tools deal a little more damage and golden armour has additional protection. Golden equipment also lasts much longer.",
+    "type": "origins:multiple",
+    "tool_durability": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:golden_shovel"
+                        }
+                    },
+                    {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:golden_pickaxe"
+                        }
+                    },
+                    {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:golden_hoe"
+                        }
+                    },
+                    {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:golden_axe"
+                        }
+                    },
+                    {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:golden_sword"
+                        }
+                    }
+                ]
+            }
+        },
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:chance",
+            "chance": 0.93,
+            "action": {
+                "type": "origins:equipped_item_action",
+                "equipment_slot": "mainhand",
+                "action": {
+                    "type": "origins:damage",
+                    "amount": -1
+                }
+            }
+        },
+        "only_when_harvested": false
+    },
+    "tool_effectiveness": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:golden_shovel"
+                        }
+                    },
+                    {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:golden_pickaxe"
+                        }
+                    },
+                    {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:golden_hoe"
+                        }
+                    },
+                    {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:golden_axe"
+                        }
+                    },
+                    {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:golden_sword"
+                        }
+                    }
+                ]
+            }
+        },
+        "type": "origins:modify_damage_dealt",
+        "modifier": {
+            "operation": "addition",
+            "value": 5
+        }
+    },
+    "helmet_effectiveness": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "head",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "piglin_origins:golden_armor"
+                }
+            }
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.armor",
+            "operation": "addition",
+            "value": 1
+        },
+        "tick_rate": 20,
+        "update_health": true
+    },
+    "chestplate_effectiveness": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "chest",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "piglin_origins:golden_armor"
+                }
+            }
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.armor",
+            "operation": "addition",
+            "value": 2
+        },
+        "tick_rate": 20,
+        "update_health": true
+    },
+    "leggings_effectiveness": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "legs",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "piglin_origins:golden_armor"
+                }
+            }
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.armor",
+            "operation": "addition",
+            "value": 2
+        },
+        "tick_rate": 20,
+        "update_health": true
+    },
+    "boots_effectiveness": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "feet",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "piglin_origins:golden_armor"
+                }
+            }
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.armor",
+            "operation": "addition",
+            "value": 1
+        },
+        "tick_rate": 20,
+        "update_health": true
+    },
+    "helmet_durability": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "head",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "piglin_origins:golden_armor"
+                }
+            }
+        },
+        "type": "origins:action_when_damage_taken",
+        "entity_action": {
+            "type": "origins:chance",
+            "chance": 0.75,
+            "action": {
+                "type": "origins:equipped_item_action",
+                "equipment_slot": "head",
+                "action": {
+                    "type": "origins:damage",
+                    "amount": -1
+                }
+            },
+            "fail_action": {
+                "type": "origins:nothing"
+            }
+        },
+        "cooldown": 0
+    },
+    "chestplate_durability": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "chest",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "piglin_origins:golden_armor"
+                }
+            }
+        },
+        "type": "origins:action_when_damage_taken",
+        "entity_action": {
+            "type": "origins:chance",
+            "chance": 0.75,
+            "action": {
+                "type": "origins:equipped_item_action",
+                "equipment_slot": "chest",
+                "action": {
+                    "type": "origins:damage",
+                    "amount": -1
+                }
+            },
+            "fail_action": {
+                "type": "origins:nothing"
+            }
+        },
+        "cooldown": 0
+    },
+    "leggings_durability": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "legs",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "piglin_origins:golden_armor"
+                }
+            }
+        },
+        "type": "origins:action_when_damage_taken",
+        "entity_action": {
+            "type": "origins:chance",
+            "chance": 0.75,
+            "action": {
+                "type": "origins:equipped_item_action",
+                "equipment_slot": "legs",
+                "action": {
+                    "type": "origins:damage",
+                    "amount": -1
+                }
+            },
+            "fail_action": {
+                "type": "origins:nothing"
+            }
+        },
+        "cooldown": 0
+    },
+    "boots_durability": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "feet",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "piglin_origins:golden_armor"
+                }
+            }
+        },
+        "type": "origins:action_when_damage_taken",
+        "entity_action": {
+            "type": "origins:chance",
+            "chance": 0.75,
+            "action": {
+                "type": "origins:equipped_item_action",
+                "equipment_slot": "feet",
+                "action": {
+                    "type": "origins:damage",
+                    "amount": -1
+                }
+            },
+            "fail_action": {
+                "type": "origins:nothing"
+            }
+        },
+        "cooldown": 0
+    },
+    "sword_durability": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:golden_sword"
+                }
+            }
+        },
+        "type": "origins:self_action_on_hit",
+        "entity_action": {
+            "type": "origins:chance",
+            "chance": 0.93,
+            "action": {
+                "type": "origins:equipped_item_action",
+                "equipment_slot": "mainhand",
+                "action": {
+                    "type": "origins:damage",
+                    "amount": -1
+                }
+            }
+        },
+        "cooldown": 0
+    }
+}
