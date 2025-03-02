@@ -1,0 +1,48 @@
+{
+    "name": "Homesick",
+    "description": "When outside of the Nether, you become weaker.",
+    "type": "origins:multiple",
+    "shake": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:dimension",
+            "dimension": "minecraft:the_nether"
+        },
+        "type": "origins:shaking"
+    },
+    "weakness": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:dimension",
+            "dimension": "minecraft:the_nether"
+        },
+        "type": "origins:stacking_status_effect",
+        "min_stacks": -2048,
+        "max_stacks": 1,
+        "duration_per_stack": 36000,
+        "tick_rate": 1200,
+        "effects": [
+            {
+                "effect": "minecraft:weakness",
+                "duration": 100,
+                "amplifier": 1,
+                "show_particles": false,
+                "show_icon": true
+            },
+            {
+                "effect": "minecraft:fire_resistance",
+                "duration": 100,
+                "amplifier": 0,
+                "show_particles": false,
+                "show_icon": false
+            },
+            {
+                "effect": "minecraft:water_breathing",
+                "duration": 100,
+                "amplifier": 0,
+                "show_particles": false,
+                "show_icon": false
+            }
+        ]
+    }
+}
