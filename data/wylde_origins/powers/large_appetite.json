@@ -1,0 +1,9 @@
+{
+    "name": "Large Appetite",
+    "description": "You are naturally more hungry.",
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 1.5
+    }
+}

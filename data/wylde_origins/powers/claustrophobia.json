@@ -1,0 +1,24 @@
+{
+    "name": "Claustrophobia",
+    "type": "origins:action_over_time",
+    "interval": 10,
+    "entity_action": {
+        "type": "origins:area_of_effect",
+        "radius": 5,
+        "bientity_action": {
+            "type": "origins:actor_action",
+            "action": {
+                "type": "origins:apply_effect",
+                "effects": [
+                    {
+                        "effect": "weakness",
+                        "duration": 100,
+                        "amplifier": 1,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "hidden": true,
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "minecraft:golden_axe",
+        "amount": 1,
+        "tag": "{display:{Lore:['[\"\",{\"text\":\"It\\'s remarkably well maintained\",\"italic\":false}]']},Unbreakable:1}"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Frail Feet",
+    "description": "You take extra fall damage",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:name",
+                "name": "fall"
+            },
+            {
+                "type": "origins:name",
+                "name": "fall.player"
+            }
+        ]
+    },
+    "modifier": {
+        "operation": "addition",
+        "value": 3.5,
+        "name": "frail feet"
+    }
+}

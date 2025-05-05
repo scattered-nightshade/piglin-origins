@@ -1,0 +1,13 @@
+{
+    "name": "Hammerspace",
+    "description": "You can pull any item from any surface as if it was from out of nowhere from an internal storage.",
+    "type": "origins:inventory",
+    "title": "Hammer Space",
+    "container_type": "dropper",
+    "drop_on_death": false,
+    "key": {
+        "key": "key.saveToolbarActivator",
+        "continuous": false
+    },
+    "recoverable": true
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Night Kit",
+    "condition": {
+        "inverted": true,
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
+    },
+    "type": "origins:night_vision",
+    "strength": 0.4
+}

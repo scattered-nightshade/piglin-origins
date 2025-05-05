@@ -1,7 +1,9 @@
 {
     "origins": [
-        "piglin_origins:piglin",
-        "piglin_origins:half-piglin"
+        "wylde_origins:piglin",
+        "wylde_origins:half_piglin",
+        "wylde_origins:domestic_enderian",
+        "wylde_origins:ivan_hishashi"
     ],
     "enabled": true
 }

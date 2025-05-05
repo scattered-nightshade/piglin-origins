@@ -1,0 +1,11 @@
+{
+    "name": "Fragile Heart",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": -2,
+        "name": "Nine lives health reduction"
+    },
+    "update_health": true
+}

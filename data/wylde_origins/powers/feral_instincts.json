@@ -1,0 +1,67 @@
+{
+    "name": "Feral Instincts",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effects": [
+                    {
+                        "effect": "strength",
+                        "duration": 100,
+                        "amplifier": 2,
+                        "show_particles": true,
+                        "show_icon": true
+                    },
+                    {
+                        "effect": "speed",
+                        "duration": 100,
+                        "amplifier": 0,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+                ]
+            },
+            {
+                "type": "origins:delay",
+                "action": {
+                    "type": "origins:apply_effect",
+                    "effects": [
+                        {
+                            "effect": "mining_fatigue",
+                            "duration": 400,
+                            "amplifier": 0,
+                            "show_particles": true,
+                            "show_icon": true
+                        },
+                        {
+                            "effect": "slowness",
+                            "duration": 400,
+                            "amplifier": 0,
+                            "show_particles": true,
+                            "show_icon": true
+                        },
+                        {
+                            "effect": "weakness",
+                            "duration": 400,
+                            "amplifier": 1,
+                            "show_particles": true,
+                            "show_icon": true
+                        }
+                    ]
+                },
+                "ticks": 100
+            }
+        ]
+    },
+    "cooldown": 1200,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 7
+    },
+    "key": {
+        "key": "key.origins.secondary_active"
+    }
+}

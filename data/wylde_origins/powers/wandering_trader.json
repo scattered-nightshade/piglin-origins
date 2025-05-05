@@ -1,0 +1,16 @@
+{
+    "name": "Multiversal Trader",
+    "description": "As a multiversal wandering trader, Villagers in this world suck up to you in hopes of obtaining some... interesting items.",
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 1,
+    "duration_per_stack": 10000000,
+    "tick_rate": 10,
+    "effect": {
+        "effect": "minecraft:hero_of_the_village",
+        "duration": 10000000,
+        "amplifier": 0,
+        "show_particles": false,
+        "show_icon": false
+    }
+}

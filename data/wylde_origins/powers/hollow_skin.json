@@ -1,0 +1,12 @@
+{
+    "name": "Hollow Skin",
+    "description": "You have one less heart of health",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": -2,
+        "name": "Hollow Skin HP Reduction"
+    },
+    "update_health": true
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Barely Flesh",
+    "description": "You are able to phase through all material known by the normal human concept.",
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": {
+        "key": "key.loadToolbarActivator",
+        "continuous": false
+    },
+    "retain_state": false
+}

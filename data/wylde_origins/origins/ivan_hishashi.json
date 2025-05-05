@@ -1,0 +1,26 @@
+{
+    "name": "Ivan Hishashi",
+    "description": "'He' was the first of his kind, technically. The full name 'Ivan Hishashi' was given.",
+    "powers": [
+        "wylde_origins:escapist_roots",
+        "wylde_origins:strong_knees",
+        "wylde_origins:barely_flesh",
+        "wylde_origins:phasing",
+        "wylde_origins:hammerspace",
+        "wylde_origins:left_arm",
+        "wylde_origins:left_eye",
+        "wylde_origins:wandering_trader",
+        "wylde_origins:barely_flesh_overlay",
+        "wylde_origins:ivans_axe",
+        "wylde_origins:natural_discomfort",
+        "wylde_origins:large_appetite",
+        "wylde_origins:hollow_skin",
+        "wylde_origins:frail_feet",
+        "wylde_origins:mutant_problems",
+        "origins:no_shield"
+    ],
+    "icon": {
+        "item": "minecraft:golden_axe"
+    },
+    "impact": 3
+}

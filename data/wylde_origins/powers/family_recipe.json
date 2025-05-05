@@ -110,7 +110,7 @@
             "item_condition": {
                 "type": "origins:ingredient",
                 "ingredient": {
-                    "tag": "piglin_origins:golden_armor"
+                    "tag": "wylde_origins:golden_armor"
                 }
             }
         },
@@ -130,7 +130,7 @@
             "item_condition": {
                 "type": "origins:ingredient",
                 "ingredient": {
-                    "tag": "piglin_origins:golden_armor"
+                    "tag": "wylde_origins:golden_armor"
                 }
             }
         },
@@ -150,7 +150,7 @@
             "item_condition": {
                 "type": "origins:ingredient",
                 "ingredient": {
-                    "tag": "piglin_origins:golden_armor"
+                    "tag": "wylde_origins:golden_armor"
                 }
             }
         },
@@ -170,7 +170,7 @@
             "item_condition": {
                 "type": "origins:ingredient",
                 "ingredient": {
-                    "tag": "piglin_origins:golden_armor"
+                    "tag": "wylde_origins:golden_armor"
                 }
             }
         },
@@ -190,7 +190,7 @@
             "item_condition": {
                 "type": "origins:ingredient",
                 "ingredient": {
-                    "tag": "piglin_origins:golden_armor"
+                    "tag": "wylde_origins:golden_armor"
                 }
             }
         },
@@ -219,7 +219,7 @@
             "item_condition": {
                 "type": "origins:ingredient",
                 "ingredient": {
-                    "tag": "piglin_origins:golden_armor"
+                    "tag": "wylde_origins:golden_armor"
                 }
             }
         },
@@ -248,7 +248,7 @@
             "item_condition": {
                 "type": "origins:ingredient",
                 "ingredient": {
-                    "tag": "piglin_origins:golden_armor"
+                    "tag": "wylde_origins:golden_armor"
                 }
             }
         },
@@ -277,7 +277,7 @@
             "item_condition": {
                 "type": "origins:ingredient",
                 "ingredient": {
-                    "tag": "piglin_origins:golden_armor"
+                    "tag": "wylde_origins:golden_armor"
                 }
             }
         },

@@ -13,9 +13,9 @@
     },
     "type": "origins:conditioned_attribute",
     "modifier": {
+        "attribute": "minecraft:generic.attack_damage",
         "operation": "multiply_base",
-        "value": 0.75,
-        "attribute": "minecraft:generic.attack_damage"
+        "value": 0.75
     },
     "tick_rate": 20,
     "update_health": true

@@ -13,7 +13,7 @@
             {
                 "type": "origins:ingredient",
                 "ingredient": {
-                    "tag": "piglin_origins:golden_food"
+                    "tag": "wylde_origins:golden_food"
                 }
             }
         ]

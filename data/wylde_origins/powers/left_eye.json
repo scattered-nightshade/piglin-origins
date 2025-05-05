@@ -1,0 +1,6 @@
+{
+    "name": "Left Eye",
+    "description": "As a result of your left eye, you're able to see through the darkness.",
+    "type": "origins:night_vision",
+    "strength": 1
+}
