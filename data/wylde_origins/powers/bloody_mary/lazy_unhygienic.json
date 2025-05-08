@@ -1,5 +1,6 @@
 {
     "name": "Lazy Unhygienic",
+    "description": "You haven't touched water in such a long time that your body has learnt to reject it.",
     "condition": {
         "type": "origins:or",
         "conditions": [

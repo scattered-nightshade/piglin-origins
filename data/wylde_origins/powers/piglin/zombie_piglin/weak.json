@@ -1,0 +1,18 @@
+{
+    "name": "Weak",
+    "description": "You have 3 less hearts of health than humans.",
+    "type": "origins:multiple",
+    "key0": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": -6,
+            "name": "Origin modifier"
+        },
+        "update_health": true
+    },
+    "key1": {
+        "type": "origins:shaking"
+    }
+}

@@ -1,10 +1,11 @@
 {
     "name": "Claustrophobia",
+    "description": "Being near anything in a 4 block radius makes you feel claustrophobic and unable to do anything making your attacks weaker",
     "type": "origins:action_over_time",
     "interval": 10,
     "entity_action": {
         "type": "origins:area_of_effect",
-        "radius": 5,
+        "radius": 4,
         "bientity_action": {
             "type": "origins:actor_action",
             "action": {

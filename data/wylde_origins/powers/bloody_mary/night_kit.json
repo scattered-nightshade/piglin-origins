@@ -1,5 +1,6 @@
 {
     "name": "Night Kit",
+    "description": "You have a slight night vision.",
     "condition": {
         "inverted": true,
         "type": "origins:submerged_in",

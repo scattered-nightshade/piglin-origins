@@ -1,0 +1,21 @@
+{
+    "name": "Natural talent",
+    "description": "Shoot a fireball forward.",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:fire_projectile",
+        "entity_type": "minecraft:fireball",
+        "count": 1,
+        "speed": 1.5,
+        "divergence": 1
+    },
+    "cooldown": 400,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+        "bar_index": 15
+    },
+    "key": {
+        "key": "key.origins.secondary_active"
+    }
+}

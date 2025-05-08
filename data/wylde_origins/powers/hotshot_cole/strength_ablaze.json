@@ -1,0 +1,19 @@
+{
+    "name": "Strength Ablaze",
+    "description": "Whilst on fire, your attacks are stronger and you can set other people on fire.",
+    "type": "origins:modify_damage_dealt",
+    "bientity_condition": {
+        "type": "origins:actor_condition",
+        "condition": {
+            "type": "origins:on_fire"
+        }
+    },
+    "modifier": {
+        "operation": "add_base_early",
+        "value": 4
+    },
+    "target_action": {
+        "type": "origins:set_on_fire",
+        "duration": 3
+    }
+}

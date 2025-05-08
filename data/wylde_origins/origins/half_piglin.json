@@ -1,16 +1,17 @@
 {
-    "name": "Quarter Piglin",
-    "description": "Only roughly a quarter of this creature's genetics are Piglin. Yet within this descendant of a certain traveller, the Nether's blood still boils strong and steady like molten lava. They manage to avoid the more radical weaknesses the Piglins suffer from but also do not have access to all of their strength in certain fields. They also do not zombify in the Overworld making them a variant of the Piglin that best suited for constant exposure in both worlds.",
+    "name": "Half Piglin",
+    "description": "Only roughly a half of this creature's genetics are Piglin. Yet within this descendant of a certain traveller, the Nether's blood still boils strong and steady like molten lava. They manage to avoid the more radical weaknesses the Piglins suffer from but also do not have access to all of their strength in certain fields. They also do not zombify in the Overworld making them a variant of the Piglin that best suited for constant exposure in both worlds.",
     "powers": [
-        "origins:nether_spawn",
-        "wylde_origins:family_recipe",
-        "wylde_origins:crossbow_apprentice",
-        "wylde_origins:mixed_heratige",
-        "wylde_origins:carnivorous_cravings",
-        "wylde_origins:travel_sickness"
+        "wylde_origins:piglin/nether_spawn",
+        "wylde_origins:piglin/family_recipe",
+        "wylde_origins:piglin/half_piglin/crossbow_apprentice",
+        "wylde_origins:piglin/half_piglin/mixed_heratige",
+        "wylde_origins:piglin/half_piglin/carnivorous_cravings",
+        "wylde_origins:piglin/half_piglin/travel_sickness",
+        "wylde_origins:piglin/piglin_neutrality"
     ],
     "icon": {
         "item": "minecraft:golden_hoe"
     },
-    "impact": 2
+    "impact": 1
 }

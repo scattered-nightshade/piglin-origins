@@ -2,8 +2,10 @@
     "origins": [
         "wylde_origins:piglin",
         "wylde_origins:half_piglin",
-        "wylde_origins:domestic_enderian",
-        "wylde_origins:ivan_hishashi"
+        "wylde_origins:bloody_mary",
+        "wylde_origins:ivan_hishashi",
+        "wylde_origins:zombie_piglin",
+        "wylde_origins:hotshot_cole"
     ],
     "enabled": true
 }

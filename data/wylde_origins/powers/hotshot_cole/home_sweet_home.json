@@ -1,0 +1,9 @@
+{
+    "name": "Home Sweet Home",
+    "description": "You spawn in a Nether Fortress",
+    "type": "origins:modify_player_spawn",
+    "dimension": "minecraft:the_nether",
+    "structure": "minecraft:fortress",
+    "spawn_strategy": "default",
+    "dimension_distance_multiplier": 1
+}

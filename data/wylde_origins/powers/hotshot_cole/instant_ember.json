@@ -1,0 +1,44 @@
+{
+    "name": "Instant Ember",
+    "description": "Set yourself on fire.",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:set_on_fire",
+                "duration": 10
+            },
+            {
+                "type": "origins:delay",
+                "action": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:slowness",
+                        "duration": 400,
+                        "amplifier": 1,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+                },
+                "ticks": 200
+            },
+            {
+                "type": "origins:delay",
+                "action": {
+                    "type": "origins:extinguish"
+                },
+                "ticks": 200
+            }
+        ]
+    },
+    "cooldown": 600,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 7
+    },
+    "key": {
+        "key": "key.origins.primary_active"
+    }
+}

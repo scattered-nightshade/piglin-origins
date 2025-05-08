@@ -1,0 +1,43 @@
+{
+    "name": "Just Another Day",
+    "description": "You are immune to fire and lava damage.",
+    "type": "origins:multiple",
+    "key0": {
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:name",
+                    "name": "inFire"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "inFire.player"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "lava"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "lava.player"
+                }
+            ]
+        }
+    },
+    "key1": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 1,
+        "max_stacks": 1,
+        "duration_per_stack": 100,
+        "tick_rate": 10,
+        "effect": {
+            "effect": "fire_resistance",
+            "duration": 100,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": false
+        }
+    }
+}

@@ -1,5 +1,6 @@
 {
     "name": "Daily Stretches",
+    "description": "You are able to reach slightly further due to your daily regime",
     "type": "origins:attribute",
     "modifiers": [
         {

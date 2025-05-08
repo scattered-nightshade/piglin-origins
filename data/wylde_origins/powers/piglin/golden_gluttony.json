@@ -1,0 +1,72 @@
+{
+    "name": "Golden Gluttony",
+    "description": "Your diet is restricted to meat, you can't eat vegetables. Golden food is still edible.\n",
+    "type": "origins:multiple",
+    "prevent_vegetable_use": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:food"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:or",
+                    "conditions": [
+                        {
+                            "type": "origins:ingredient",
+                            "ingredient": {
+                                "tag": "origins:meat"
+                            }
+                        },
+                        {
+                            "type": "origins:meat"
+                        }
+                    ]
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "wylde_origins:golden_food"
+                    }
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "origins:ignore_diet"
+                    }
+                }
+            ]
+        }
+    },
+    "add_golden_hunger": {
+        "type": "origins:action_on_item_use",
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "resource": "wylde_origins:piglin/golden_hunger",
+            "modifier": {
+                "operation": "add_base_early",
+                "value": 3600
+            }
+        },
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:food"
+                },
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "origins:ignore_diet"
+                    }
+                }
+            ]
+        },
+        "trigger": "finish",
+        "priority": 0
+    }
+}

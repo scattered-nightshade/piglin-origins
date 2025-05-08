@@ -1,0 +1,16 @@
+{
+    "name": "Nonflammable",
+    "description": "You dont burn in fire or lava",
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 1,
+    "duration_per_stack": 100000,
+    "tick_rate": 10,
+    "effect": {
+        "effect": "minecraft:fire_resistance",
+        "duration": 100000,
+        "amplifier": 0,
+        "show_particles": false,
+        "show_icon": false
+    }
+}

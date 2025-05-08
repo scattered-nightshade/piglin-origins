@@ -1,5 +1,6 @@
 {
     "name": "Leg Day Boons",
+    "description": "You can jump higher whilst sprinting",
     "condition": {
         "type": "origins:sprinting"
     },

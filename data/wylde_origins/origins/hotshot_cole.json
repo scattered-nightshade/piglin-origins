@@ -1,0 +1,21 @@
+{
+    "name": "Hotshot Cole",
+    "description": "Lorum Ipsum",
+    "powers": [
+        "wylde_origins:hotshot_cole/buzz_off",
+        "wylde_origins:hotshot_cole/extinguished",
+        "wylde_origins:hotshot_cole/home_sweet_home",
+        "wylde_origins:hotshot_cole/homesick",
+        "wylde_origins:hotshot_cole/immune_system",
+        "wylde_origins:hotshot_cole/instant_ember",
+        "wylde_origins:hotshot_cole/just_another_day",
+        "wylde_origins:hotshot_cole/lava_vision",
+        "wylde_origins:hotshot_cole/natural_talent",
+        "wylde_origins:hotshot_cole/strength_ablaze",
+        "wylde_origins:hotshot_cole/temperature_tantrum"
+    ],
+    "icon": {
+        "item": "minecraft:blaze_rod"
+    },
+    "impact": 2
+}

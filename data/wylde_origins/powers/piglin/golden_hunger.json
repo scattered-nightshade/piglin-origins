@@ -1,0 +1,16 @@
+{
+    "hidden": true,
+    "type": "origins:resource",
+    "min": 0,
+    "max": 12000,
+    "start_value": 12000,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 7
+    },
+    "min_action": {
+        "type": "origins:execute_command",
+        "command": "origin set @s origins:origin wylde_origins:zombie_piglin"
+    }
+}

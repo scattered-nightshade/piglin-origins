@@ -1,0 +1,35 @@
+{
+    "name": "Loyalty",
+    "description": "Piglins are unwilling to kill one of their kind.",
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "team add piglin_origin"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "team join piglin_origin"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "/team join piglin_origin @e[type=piglin]"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "/team join piglin_origin @e[type=piglin_brute]"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "/tag @e[type=piglin] add piglin_origin"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "/tag @e[type=piglin_brute] add piglin_origin"
+            }
+        ]
+    }
+}

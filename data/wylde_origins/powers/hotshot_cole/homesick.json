@@ -1,0 +1,21 @@
+{
+    "name": "Homesick",
+    "description": "When not in the nether you become weaker.",
+    "condition": {
+        "inverted": true,
+        "type": "origins:dimension",
+        "dimension": "minecraft:the_nether"
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 2,
+    "duration_per_stack": 100,
+    "tick_rate": 10,
+    "effect": {
+        "effect": "minecraft:weakness",
+        "duration": 100,
+        "amplifier": 0,
+        "show_particles": false,
+        "show_icon": true
+    }
+}

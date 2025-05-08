@@ -1,0 +1,21 @@
+{
+    "name": "Bloody Mary",
+    "description": "Lorem Ipsum",
+    "powers": [
+        "origins:scare_creepers",
+        "origins:carnivore",
+        "wylde_origins:bloody_mary/claustrophobia",
+        "wylde_origins:bloody_mary/daily_stretches",
+        "wylde_origins:bloody_mary/feral_instincts",
+        "wylde_origins:bloody_mary/fragile_heart",
+        "wylde_origins:bloody_mary/homeland_travels",
+        "wylde_origins:bloody_mary/lazy_unhygienic",
+        "wylde_origins:bloody_mary/leg_day",
+        "wylde_origins:bloody_mary/light_feet",
+        "wylde_origins:bloody_mary/night_kit"
+    ],
+    "icon": {
+        "item": "minecraft:magma_cream"
+    },
+    "impact": 2
+}

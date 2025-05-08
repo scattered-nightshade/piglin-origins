@@ -1,8 +1,9 @@
 {
     "name": "Homeland Travels",
+    "description": "Every two minutes you can throw an enderpearl",
     "type": "origins:fire_projectile",
     "entity_type": "origins:enderian_pearl",
-    "cooldown": 60,
+    "cooldown": 2400,
     "hud_render": {
         "should_render": true,
         "sprite_location": "origins:textures/gui/resource_bar.png",

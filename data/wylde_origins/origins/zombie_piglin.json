@@ -1,19 +1,20 @@
 {
-    "name": "Piglin",
-    "description": "Natives of the Nether, Piglins are very fond of gold and are experts at utilizing it.",
+    "name": "Zombie Piglin",
+    "description": "A zombified form of the Piglin",
     "powers": [
+        "wylde_origins:piglin/zombie_piglin/weak",
+        "wylde_origins:piglin/zombie_piglin/unchanging",
+        "wylde_origins:piglin/zombie_piglin/nonflammable",
         "wylde_origins:piglin/nether_spawn",
         "wylde_origins:piglin/all_that_glitters",
         "wylde_origins:piglin/crossbow_master",
-        "wylde_origins:piglin/flabby",
         "wylde_origins:piglin/golden_gluttony",
-        "wylde_origins:piglin/golden_hunger",
-        "wylde_origins:piglin/homesick",
         "wylde_origins:piglin/soul_spooked",
         "wylde_origins:piglin/piglin_neutrality"
     ],
     "icon": {
-        "item": "minecraft:golden_sword"
+        "item": "minecraft:rotten_flesh"
     },
-    "impact": 2
+    "unchoosable": true,
+    "impact": 0
 }

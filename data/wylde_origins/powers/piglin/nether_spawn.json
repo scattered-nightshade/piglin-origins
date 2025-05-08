@@ -1,0 +1,9 @@
+{
+    "name": "Crimson Wastes Spawn",
+    "description": "As with all Piglins, you spawn in the Crimson Wastes",
+    "type": "origins:modify_player_spawn",
+    "dimension": "minecraft:the_nether",
+    "biome": "minecraft:crimson_forest",
+    "spawn_strategy": "default",
+    "dimension_distance_multiplier": 1
+}

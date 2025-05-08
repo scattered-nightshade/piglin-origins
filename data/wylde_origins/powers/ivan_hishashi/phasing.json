@@ -3,7 +3,7 @@
     "hidden": true,
     "condition": {
         "type": "origins:power_active",
-        "power": "wylde_origins:barely_flesh"
+        "power": "wylde_origins:ivan_hishashi/barely_flesh"
     },
     "type": "origins:phasing",
     "block_condition": {
